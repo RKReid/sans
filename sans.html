@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<style>
+.sans {
+ position: relative;
+ animation-name: example;
+ animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+@keyframes example {
+ 0% { left:200px; top:0px;}
+ 25% { left:0px; top:0px;}
+ 50% { left:-200px; top:0px;}
+ 75% { left:0px; top:0px;}
+ 100% { left:200px; top:0px;}
+ }
+ 
+ .center_sans {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #000000;
+}
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+/**custom cursor**/
+.heart {
+  cursor: url("heart.cur"), default;	
+}
+</style>
+<body class="heart">
+<br><br><br><br>
+<h1 class="sans">
+<img src="sans.gif" width="200px" class="center_sans">
+</h1>
+<br><br><br>
+<img src="badtime.jpg" class="center_sans" width="50%"><br>
+<img src="battle.jpg" class="center_sans" width="50%">
+
+<audio autoplay loop>
+  <source src="megalovania.ogg" type="audio/ogg">
+</audio>
+<br><br><br><br><br>
+</body>
+</html>
